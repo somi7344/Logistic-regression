@@ -13,16 +13,16 @@ End-to-end Logistic Regression project predicting stress levels using lifestyle 
 - [Objective](#objective)
 - [Dataset Columns](#dataset-columns)
 - [Step-by-Step Process](#step-by-step-process-with-code)
-  - [1. Import Libraries](#1-import-libraries)
-  - [2. Load Dataset](#2-load-dataset)
-  - [3. Check for Missing Values](#3-check-for-missing-values)
-  - [4. Convert Categorical Data](#4-convert-categorical-data)
-  - [5. Convert Target Variable](#5-convert-target-variable)
-  - [6. Split Features and Target](#6-split-features-and-target)
-  - [7. Train-Test Split](#7-train-test-split)
-  - [8. Train Model](#8-train-logistic-regression-model)
-  - [9. Make Predictions](#9-make-predictions)
-  - [10. Evaluate Model](#10-evaluate-model)
+  - [Import Libraries](#1-import-libraries)
+  - [Load Dataset](#2-load-dataset)
+  - [Check for Missing Values](#3-check-for-missing-values)
+  - [Convert Categorical Data](#4-convert-categorical-data)
+  - [Convert Target Variable](#5-convert-target-variable)
+  - [Split Features and Target](#6-split-features-and-target)
+  - [Train-Test Split](#7-train-test-split)
+  - [Train Model](#8-train-logistic-regression-model)
+  - [Make Predictions](#9-make-predictions)
+  - [Evaluate Model](#10-evaluate-model)
 - [Results and Interpretation](#results-and-interpretation)
 - [Key Insights](#key-insights)
 - [Example Prediction](#example-prediction)
@@ -37,48 +37,33 @@ End-to-end Logistic Regression project predicting stress levels using lifestyle 
 ## Project Overview
 This project predicts whether an individual is likely to experience high stress or low stress based on lifestyle factors such as sleep, working hours, exercise frequency, and job type.
 
-It uses Logistic Regression, a machine learning algorithm designed for classification problems.
-
-The project covers the full workflow:
-- Data cleaning
-- Data preprocessing
-- Model training
-- Model evaluation
-- Insight generation
-
 ---
 
 ## Objective
 - Classify individuals into High Stress (1) or Low Stress (0)
 - Identify key lifestyle factors affecting stress
-- Build a predictive model for real-world use
+- Build a predictive model
 
 ---
 
 ## Dataset Columns
-
-- Age → Age of the individual  
-- Working_Hours → Daily working hours  
-- Sleep_Hours → Daily sleep duration  
-- Exercise_Freq → Weekly exercise frequency  
-- Job_Type → Type of job (categorical)  
-- Stress_Level → Target variable (High / Low)  
+- Age  
+- Working_Hours  
+- Sleep_Hours  
+- Exercise_Freq  
+- Job_Type  
+- Stress_Level  
 
 ---
 
-# Step-by-Step Process (With Code)
+## Step-by-Step Process (With Code)
 
 ---
 
 ## 1. Import Libraries
-
 ```python
 import pandas as pd
 import numpy as np
-````
-
-Used for data handling and numerical operations.
-
 ---
 
 ## 2. Load Dataset
