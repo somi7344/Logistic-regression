@@ -3,7 +3,6 @@ End-to-end Logistic Regression project predicting stress levels using lifestyle 
 
 
 
-````md
 # Stress Level Prediction using Logistic Regression
 
 ---
