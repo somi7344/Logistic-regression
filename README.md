@@ -1,12 +1,7 @@
 # Logistic-regression
 End-to-end Logistic Regression project predicting stress levels using lifestyle data, with full data cleaning, preprocessing, model training, and business indights
 
-Perfect — this is exactly the level that makes your README look **clean, professional, and easy to navigate**.
 
-Below is your **final version with a Table of Contents and clickable links**.
-Just copy and paste everything into your README.
-
----
 
 ````md
 # Stress Level Prediction using Logistic Regression
